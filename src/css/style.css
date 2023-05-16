@@ -9,7 +9,6 @@ body {
 
 .img-pokemon{
 width: 300px;
-display:inline;
 }
 
 .cartao-pokemon {
@@ -21,17 +20,17 @@ display:inline;
     padding: 10px;
 }
 
-body.modo-escuro .cartao-pokemon{
+body.modo-escuro{
     background-color: #212121;
     color: #f5f5f5;
-
+}
+body.modo-escuro .cartao-pokemon{
     background-image: url('../imagens/noite\ 3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
     background-clip: padding-box;
     padding: 10px;
-
 }
 
 header {
@@ -39,6 +38,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    align-items: center;
+
 }
 
 header .logo,
