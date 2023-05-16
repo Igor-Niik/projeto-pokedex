@@ -126,11 +126,11 @@ main .cartao-pokemon .tipo{
     background-color:#7ac74c
 }
 .veneno {
-    background-color: violet;
+    background-color: rgb(212, 11, 212);
 }
 
 .fogo {
-    background-color: rgba(202, 90, 15, 0.788);
+    background-color: rgba(224, 75, 17, 0.877);
 }
 .agua {
     background-color: rgb(0, 162, 255);
